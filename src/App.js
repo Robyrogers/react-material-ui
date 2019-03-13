@@ -3,6 +3,8 @@ import AppBar from '@material-ui/core/AppBar'
 import Typography from '@material-ui/core/Typography'
 import Toolbar from '@material-ui/core/Toolbar'
 import NavBar from './components/NavBar'
+import Posts from './components/Posts'
+import Contact from './components/Contact'
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
             <NavBar />
           </Toolbar>
         </AppBar>
+        <Posts />
+        <Contact />
       </div>
     );
   }

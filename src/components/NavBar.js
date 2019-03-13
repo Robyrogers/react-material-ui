@@ -12,19 +12,19 @@ const NavBar = (props) => {
         <ListItem component="div">
           <ListItemText inset>
             <Typography color="inherit" variant="title">
-              Home <Home />
+              <Home /> Home 
             </Typography>
           </ListItemText>
 
           <ListItemText inset>
             <Typography color="inherit" variant="title">
-              Posts <Book />
+              <Book /> Posts
             </Typography>
           </ListItemText>
 
           <ListItemText inset>
             <Typography color="inherit" variant="title">
-              Contact <AccountBox />
+              <AccountBox /> Contact 
             </Typography>
           </ListItemText>
         </ListItem>
